@@ -1,25 +1,31 @@
 [
   {
     "title": "Standard",
-    "description": "Basic features",
-    "price": "$29",
+    "description": "Essential features for small businesses",
+    "price": "$180",
     "features": [
-      "3 Projects",
-      "6 Months Support & SEO",
-      "Basic Dashboard"
+      "Up to 5 Pages",
+      "2 Projects",
+      "3 Months Support & Basic SEO",
+      "Basic Dashboard",
+      "Mobile Responsive Design",
+      "SSL Certificate"
     ]
   },
   {
     "title": "Pro",
     "recommended": true,
-    "description": "Premium features",
-    "price": "$59",
+    "description": "Comprehensive features for growing businesses",
+    "price": "$350",
     "features": [
-      "Unlimited Projects",
-      "Lifetime Support & SEO Experts Consult",
-      "Advance Dashboard",
-      "Data Security & Backup",
-      "Cloud Hosting & Domain"
+      "Unlimited Pages & Projects",
+      "12 Months Support & Advanced SEO Strategy",
+      "Advanced Dashboard with Analytics",
+      "Enhanced Data Security & Regular Backups",
+      "Cloud Hosting, Domain Registration & Management",
+      "E-commerce Functionality (Optional)",
+      "Custom Design & Branding",
+      "Priority Support"
     ]
   }
 ]

@@ -1,27 +1,27 @@
 [
   {
     "picture": "/assets/img/team/1.jpeg",
-    "name": "Michael Edwards",
+    "name": "Marvin Okongo",
     "position": "CEO Founder"
   },
   {
     "picture": "/assets/img/team/2.jpeg",
-    "name": "Bobby Kane",
+    "name": "Ken Muchiri",
     "position": "CTO"
   },
   {
     "picture": "/assets/img/team/3.jpeg",
-    "name": "Robert Downey Jr",
+    "name": "Sadam Adow",
     "position": "Project Manager"
   },
   {
     "picture": "/assets/img/team/4.jpeg",
-    "name": "Andrew Robertson",
+    "name": "Christine Bilha",
     "position": "Marketing Leader"
   },
   {
     "picture": "/assets/img/team/5.jpeg",
-    "name": "Alexander Avery",
+    "name": "Mukala",
     "position": "Creative Director"
   }
 ]

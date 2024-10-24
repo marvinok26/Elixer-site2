@@ -25,7 +25,6 @@ const PageContactApp = () => {
       </Head>
 
       <MainLayout>
-        <TopNav style="4" />
         <Navbar navbarRef={navbarRef} />
         <main className="contact-page style-5">
           <Community />

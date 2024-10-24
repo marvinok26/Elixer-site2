@@ -7,7 +7,7 @@ const ChatBanner = () => {
         <div className="row align-items-center">
           <div className="col-lg-7">
             <div className="info">
-              <h3>Assess Your Business Potentials Now & Find Opportunities For <span>Bigger Success</span></h3>
+              <h3>Unlock Your Business Potential & Discover New <span>Opportunities for Growth</span></h3>
             </div>
           </div>
           <div className="col-lg-5">
@@ -19,7 +19,7 @@ const ChatBanner = () => {
               </Link>
               <Link href="/page-contact-5">
                 <a className="btn rounded-pill border-1 border-white text-white sm-butn">
-                  <span>Get Information</span>
+                  <span>Get More Info</span>
                 </a>
               </Link>
             </div>
@@ -30,4 +30,4 @@ const ChatBanner = () => {
   )
 }
 
-export default ChatBanner
+export default ChatBanner;

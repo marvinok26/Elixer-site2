@@ -2,9 +2,9 @@
   "blogs": [
     {
       "cover": "/assets/img/blog/6.png",
-      "type": "tips & tricks",
+      "type": "Tips & Tricks",
       "time": "12 Days ago",
-      "title": "How To Become A Python Develop Expert",
+      "title": "Become a Python Expert",
       "userImage": "a",
       "username": "Admin",
       "comments": "24",
@@ -14,7 +14,7 @@
       "cover": "/assets/img/blog/7.png",
       "type": "News",
       "time": "5 Days ago",
-      "title": "AI With Fingerprint",
+      "title": "AI with Fingerprint Tech",
       "userImage": "a",
       "username": "David",
       "comments": "24",
@@ -22,9 +22,9 @@
     },
     {
       "cover": "/assets/img/blog/8.png",
-      "type": "tips & tricks",
-      "time": "1 month ago",
-      "title": "Solutions For Big Data Issue, Expert Perspective",
+      "type": "Tips & Tricks",
+      "time": "1 Month ago",
+      "title": "Big Data Solutions: Expert View",
       "userImage": "a",
       "username": "Moussa",
       "comments": "24",
@@ -33,24 +33,24 @@
   ],
   "faq": [
     {
-      "question": "How Benefit That I Got When Choose Basic Plan?",
-      "answer": "Through the collaboration with customers in discussing needs and demand, we're able to attain mutual understanding, gain customer trust to offer appropriate advice"
+      "question": "What are the benefits of the Basic Plan?",
+      "answer": "We provide tailored advice based on your needs to ensure mutual understanding and value."
     },
     {
-      "question": "Can I Pay With Paypal or Payoneer?",
-      "answer": "Through the collaboration with customers in discussing needs and demand, we're able to attain mutual understanding, gain customer trust to offer appropriate advice"
+      "question": "Can I pay with PayPal or Payoneer?",
+      "answer": "Yes, we support PayPal and Payoneer for secure and convenient payments."
     },
     {
-      "question": "How Long For A Standard Project?",
-      "answer": "Through the collaboration with customers in discussing needs and demand, we're able to attain mutual understanding, gain customer trust to offer appropriate advice"
+      "question": "How long does a standard project take?",
+      "answer": "The timeline depends on the project scope, but most standard projects are completed in a few weeks."
     },
     {
-      "question": "How About Data Security & NDA Agreement?",
-      "answer": "Through the collaboration with customers in discussing needs and demand, we're able to attain mutual understanding, gain customer trust to offer appropriate advice"
+      "question": "Is my data secure? Do you offer NDAs?",
+      "answer": "Yes, we prioritize data security and are happy to sign NDAs to protect your information."
     },
     {
-      "question": "Can We Make An Own Tailored-AI ?",
-      "answer": "Through the collaboration with customers in discussing needs and demand, we're able to attain mutual understanding, gain customer trust to offer appropriate advice"
+      "question": "Can we build a custom AI solution?",
+      "answer": "Yes, we specialize in developing tailored AI solutions based on your specific requirements."
     }
   ],
   "clients": [

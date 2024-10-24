@@ -9,12 +9,12 @@ const Footer = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="items">
               <div className="title">
-                Elixerr - 1st Choice for IT & Software Solutions
+                Elixerr - Your IT & Software Partner
               </div>
               <small className="text">
-                Over 25 years working in IT services developing software applications and mobile apps for clients all over the world. For your very specific industry, we have highly-tailored IT solutions.
+                With over 25 years of experience in IT services, we create software and mobile apps for clients worldwide. We offer custom IT solutions for your industry needs.
               </small>
-              <div className="socail-icons">
+              <div className="social-icons mt-3">
                 <a href="#" className="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray me-2">
                   <i className="fab fa-twitter"></i>
                 </a>
@@ -30,7 +30,7 @@ const Footer = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="items">
               <div className="title">
-                Information
+                Contact Info
               </div>
               <small className="text mb-10 d-block">
                 { footerData.address }
@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="col-lg-2">
             <div className="items">
               <div className="title">
-                Useful Links
+                Quick Links
               </div>
               <ul>
                 {
@@ -64,7 +64,7 @@ const Footer = () => {
           <div className="col-lg-2">
             <div className="items">
               <div className="title">
-                Services
+                Our Services
               </div>
               <ul>
                 {
@@ -84,12 +84,12 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-3 col-sm-6">
               <div className="logo">
-                <img src="/assets/img/logo_b2.png" alt="" />
+                <img src="/assets/img/logo_11.png" alt="Elixerr Logo" />
               </div>
             </div>
             <div className="col-lg-6">
               <small className="small">
-                © 2022 Copyrights by <a href="#" className="fw-bold text-decoration-underline">Elixerr Ltd.</a> All Rights Reserved. Designed by <a href="#" className="fw-bold text-decoration-underline">ThemesCamp</a>
+                © 2022 Elixerr Ltd. All Rights Reserved. Designed by <a href="#" className="fw-bold text-decoration-underline">Marvin</a>
               </small>
             </div>
           </div>
@@ -101,4 +101,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

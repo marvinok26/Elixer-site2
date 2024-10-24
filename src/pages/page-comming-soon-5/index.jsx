@@ -24,7 +24,6 @@ const PageCommingSoon = () => {
 
       <MainLayout>
         <AbsoluteContainer>
-          <TopNav style="5" />
           <Navbar navbarRef={navbarRef} />
         </AbsoluteContainer>
         <main className="comming-soon-page style-5">

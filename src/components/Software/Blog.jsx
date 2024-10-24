@@ -9,7 +9,10 @@ const Blog = () => {
           <div className="col-lg-5">
             <div className="blog-content">
               <div className="section-head style-3 d-flex align-items-center mb-50">
-                <h3>Elixerr’s <span>Journal</span></h3> <Link href="/page-blog-5"><a className="text-muted ms-5 ps-5 mt-2">All  Articles <i className="bi bi-chevron-right ms-1"></i></a></Link>
+                <h3>Elixerr’s <span>Articles</span></h3> 
+                <Link href="/page-blog-5">
+                  <a className="text-muted ms-5 ps-5 mt-2">View All Articles <i className="bi bi-chevron-right ms-1"></i></a>
+                </Link>
               </div>
               {
                 data.blogs.map((post, i) => (
@@ -18,7 +21,7 @@ const Blog = () => {
                       <div className="col-lg-4">
                         <Link href="/page-single-post-5">
                           <a className="img img-cover">
-                            <img src={post.cover} className="radius-2" alt="..." />
+                            <img src={post.cover} className="radius-2" alt={`Cover image for ${post.title}`} />
                           </a>
                         </Link>
                       </div>
@@ -29,7 +32,11 @@ const Blog = () => {
                             <i className="bi bi-clock me-1"></i>
                             <a href="#" className="op-8">{ post.time }</a>
                           </small>
-                          <h6 className="card-title"><Link href="/page-single-post-5"><a>{ post.title}</a></Link></h6>
+                          <h6 className="card-title">
+                            <Link href="/page-single-post-5">
+                              <a>{ post.title }</a>
+                            </Link>
+                          </h6>
                           <div className="d-flex small mt-20 align-items-center justify-content-between op-9">
                             <div className="l_side d-flex align-items-center">
                               <span className="icon-10 rounded-circle d-inline-flex justify-content-center align-items-center text-uppercase bg-blue2 p-2 me-2 text-white">
@@ -57,7 +64,7 @@ const Blog = () => {
           <div className="col-lg-5">
             <div className="faq style-3">
               <div className="section-head style-3 text-uppercase mb-50">
-                <h3>FAQS</h3>
+                <h3>Frequently Asked Questions (FAQs)</h3>
               </div>
               <div className="accordion" id="accordionExample">
                 {
@@ -78,7 +85,7 @@ const Blog = () => {
                 }
                 <Link href="/page-contact-5">
                   <a className="text-muted text-uppercase mt-50 small">
-                    See More <i className="bi bi-chevron-right ms-1"></i>
+                    Explore More <i className="bi bi-chevron-right ms-1"></i>
                   </a>
                 </Link>
               </div>
@@ -91,7 +98,7 @@ const Blog = () => {
               data.clients.map((client, index) => (
                 <div className="col-6 col-lg-2" key={index}>
                   <a href="#" className="img d-block">
-                    <img src={client} alt="" />
+                    <img src={client} alt={`Client logo ${index + 1}`} />
                   </a>
                 </div>
               ))
@@ -99,9 +106,9 @@ const Blog = () => {
           </div>
         </div>
       </div>
-      <img src="/assets/img/blog/v_lines.png" alt="" className="v_lines" />
+      <img src="/assets/img/blog/v_lines.png" alt="Decorative background lines" className="v_lines" />
     </section>
   )
 }
 
-export default Blog
+export default Blog;

@@ -6,14 +6,14 @@ const Team = () => {
     <section className="team section-padding style-1 team-blue2" data-scroll-index="6">
       <div className="container">
         <div className="section-head long-shape style-3 text-center mb-70">
-          <h3>Meet Our <span>Amazing Team</span></h3>
+          <h3>Meet Our <span>Expert Team</span></h3>
         </div>
         <div className="content">
           {
             teamMembers.map((member, i) => (
               <div className="team_box" key={i}>
                 <div className="avatar">
-                  <img src={member.picture} alt="" />
+                  <img src={member.picture} alt={`${member.name} - ${member.position}`} />
                 </div>
                 <div className="info">
                   <h6><a href="#">{ member.name }</a></h6>
@@ -37,7 +37,7 @@ const Team = () => {
         <div className="bttns mt-4 text-center mt-50">
           <Link href="/page-about-5">
             <a className="btn rounded-pill bg-blue2 sm-butn mx-1 text-white">
-              <span>See All Team</span>
+              <span>Meet the Full Team</span>
             </a>
           </Link>
           <Link href="/page-contact-5">
@@ -51,4 +51,4 @@ const Team = () => {
   )
 }
 
-export default Team
+export default Team;

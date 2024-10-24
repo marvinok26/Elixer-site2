@@ -6,7 +6,8 @@ const About = () => {
     <section className="about section-padding style-3" data-scroll-index="3">
       <div className="top-content">
         <div className="img img-left">
-          <img src="/assets/img/about/style_3_1.png" alt="" />
+          {/* Improved alt text */}
+          <img src="/assets/img/about/style_3_1.png" alt="About Elixerr - IT Solutions and Digital Services" />
           {
             aboutData.numbers.map((number, index) => (
               <div className="info-circle" key={index}>
@@ -25,17 +26,18 @@ const About = () => {
                 <div className="section-head long-shape mb-40 style-3">
                   <h3>Elixerr’s <span>Mission & Vision</span></h3>
                 </div>
+                {/* Updated vision statement with relevant keywords */}
                 <h5 className="h5">
-                  “It is only when they go wrong that machines remind you how powerful they are.”
+                  “Technology’s true power is revealed when everything works seamlessly.”
                 </h5>
                 <div className="text mb-20">
-                  Elixerr Co is the partner of choice for many of the world’s leading enterprises, SMEs
-                  and technology challengers. We help businesses elevate their value through custom
-                  software development, product design, QA and consultancy services.
+                  Elixerr Co is the trusted partner for leading enterprises, SMEs, and tech innovators worldwide. 
+                  We enhance business value through custom software development, product design, quality assurance, 
+                  and strategic IT consultancy services.
                 </div>
                 <div className="text mb-70">
-                  Elixerr specializes in technological and IT-related services such as product
-                  engineering, warranty management, building cloud, etc.
+                  Specializing in IT solutions such as product engineering, cloud computing, and warranty management, 
+                  Elixerr is dedicated to driving innovation and delivering robust technological solutions.
                 </div>
                 <Link href="/page-about-5">
                   <a className="btn rounded-pill bg-blue2 sm-butn text-white">
@@ -56,17 +58,20 @@ const About = () => {
                   <h3>Elixerr’s <span>Technology</span></h3>
                 </div>
                 <div className="text mb-30">
-                  Our team can assist you in transforming your business through latest tech
-                  capabilities to stay ahead of the curve.
+                  Our team helps transform businesses using the latest technologies to stay ahead in today's competitive landscape.
                 </div>
                 <ul>
                   {
-                    aboutData.features.map((feature, index) => (<li key={index}> <i className="bi bi-star-fill me-3"></i> { feature }</li>))
+                    aboutData.features.map((feature, index) => (
+                      <li key={index}> 
+                        <i className="bi bi-star-fill me-3"></i> { feature }
+                      </li>
+                    ))
                   }
                 </ul>
                 <Link href="/page-about-5">
                   <a className="btn rounded-pill border-blue2 hover-blue2 mt-60 sm-butn">
-                    <span>How We Works</span>
+                    <span>How We Work</span>
                   </a>
                 </Link>
               </div>
@@ -74,11 +79,12 @@ const About = () => {
           </div>
         </div>
         <div className="img img-right">
-          <img src="/assets/img/about/style_3_2.png" alt="" />
+          {/* Improved alt text */}
+          <img src="/assets/img/about/style_3_2.png" alt="Elixerr - Innovation in IT and Digital Solutions" />
         </div>
       </div>
     </section>
   )
 }
 
-export default About
+export default About;

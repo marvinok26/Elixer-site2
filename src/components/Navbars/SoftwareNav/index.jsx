@@ -30,7 +30,8 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark style-3 position-absolute w-100" ref={navbarRef}>
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img src="/assets/img/logo_ll.png" alt="" />
+        <img src="/assets/img/logo_ll.png" alt="elixerr logo" />
+
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"

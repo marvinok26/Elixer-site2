@@ -25,7 +25,6 @@ const PageServicesApp = () => {
       </Head>
 
       <MainLayout>
-        <TopNav style="4" />
         <Navbar navbarRef={navbarRef} />
         <main className="services-page style-5">
           <Services />

@@ -15,7 +15,8 @@ const Testimonials = () => {
       <div className="container">
         <div className="content section-padding">
           <div className="section-head style-3">
-            <h3>Loved By Thousand <span>Clients</span></h3>
+            {/* Improved heading for SEO */}
+            <h3>Loved By Thousands of <span>Satisfied Clients</span></h3>
           </div>
           <div className="testimonial-slider style-3">
             <Swiper
@@ -64,7 +65,8 @@ const Testimonials = () => {
                       </div>
                       <div className="user-img mt-30 d-flex align-items-center">
                         <div className="img icon-40 img-cover rounded-circle overflow-hidden me-3">
-                          <img src={testimonial.image} alt="" />
+                          {/* Adding descriptive alt text to user images */}
+                          <img src={testimonial.image} alt={`${testimonial.author}, ${testimonial.position}`} />
                         </div>
                         <div className="inf">
                           <p className="fw-bold">{ testimonial.author }</p>
@@ -80,10 +82,11 @@ const Testimonials = () => {
             <div className="swiper-button-prev"></div>
           </div>
         </div>
-        <img src="/assets/img/testimonials/testi3_lines.png" alt="" className="testi_lines w-100" />
+        {/* Adding descriptive alt text for the background image */}
+        <img src="/assets/img/testimonials/testi3_lines.png" alt="Decorative testimonial section background lines" className="testi_lines w-100" />
       </div>
     </section>
   )
 }
 
-export default Testimonials
+export default Testimonials;

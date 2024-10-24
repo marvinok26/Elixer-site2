@@ -2265,10 +2265,11 @@ small.text {
       background-color: #010049; }
 
 .navbar.style-3 {
-  padding: 20px 0; }
+  padding: 10px 0; }
   .navbar.style-3.nav-scroll {
     background-color: #4A00E1 !important; }
   .navbar.style-3 .navbar-brand img {
+    height: 50px;
     width: 155px;
     -o-object-fit: contain;
     object-fit: contain; }
@@ -10454,10 +10455,11 @@ footer.style-3 {
       footer.style-3 .items ul li a:hover {
         color: var(--color-blue2); }
   footer.style-3 .foot {
-    padding: 35px 0 30px;
+    padding: 15px 0 10px;
     position: relative;
     margin-top: 80px; }
     footer.style-3 .foot .logo {
+      height: 50px;
       width: 120px; }
     footer.style-3 .foot .testi_lines {
       position: absolute;

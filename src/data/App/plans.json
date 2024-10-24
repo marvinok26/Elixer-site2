@@ -1,7 +1,7 @@
 [
   {
     "title": "basic Plan",
-    "price": "Free",
+    "price": "100",
     "image": "/assets/img/icons/price_s4_1.png",
     "description": "Free 14 days trial, you can use over 20 basic features",
     "features": [
@@ -34,7 +34,7 @@
   },
   {
     "title": "premium Plan",
-    "price": "$29",
+    "price": "$400",
     "image": "/assets/img/icons/price_s4_2.png",
     "description": "Experience all premium features and only one-time payment",
     "off": "20%",

@@ -10,19 +10,19 @@ const Pricing = () => {
             <div className="col-lg-4">
               <div className="info">
                 <div className="section-head style-3 mb-40">
-                  <h3> Affordable <span> Price </span></h3>
+                  <h3> Affordable <span> Pricing Plans </span></h3>
                 </div>
                 <small className="text text-gray mb-30">
-                  Kick-start your project with our pricing plan. We handle all the practical aspects
-                  related to hiring and hosting your team at our premises, thus saving you half a cost
-                  and a lot of efforts. Lorem ispum dolor sit amet
+                  Start your project with a flexible pricing plan designed to meet your business needs. 
+                  We take care of the recruitment, hosting, and management, saving you both time and resources.
                 </small>
                 <small className="text text-gray d-block">
-                  Not find your plan, need a tailored-plan? <br /> <a href="#" className="color-blue2 text-decoration-underline">Contact</a> us now!
+                  Don't see a plan that fits? Need a custom solution? <br /> 
+                  <a href="#" className="color-blue2 text-decoration-underline">Contact us</a> for a personalized pricing plan today!
                 </small>
                 <Link href="/page-services-5">
                   <a className="btn rounded-pill border-blue2 hover-blue2 mt-60 sm-butn">
-                    <span>Our Services</span>
+                    <span>View Our Services</span>
                   </a>
                 </Link>
               </div>
@@ -69,11 +69,11 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-          <img src="/assets/img/testimonials/testi3_lines.png" alt="" className="testi_lines w-100" />
+          <img src="/assets/img/testimonials/testi3_lines.png" alt="Testimonials Lines Graphic" className="testi_lines w-100" />
         </div>
       </div>
     </section>
   )
 }
 
-export default Pricing
+export default Pricing;
